@@ -7,9 +7,9 @@ from PIL import Image, ImageDraw, ImageFont
 # img.paste(jgz,(73,42))
 # img.show()
 
-img = Image.open("D:/biaoqingbao/11.jpg")
+img = Image.open("D:/PythonDemo/biaoqingbao/51.jpg")
 draw = ImageDraw.Draw(img)
 ttfront = ImageFont.truetype('simhei.ttf', 30)
-draw.text((225, 450),"做测试！",fill=(0,0,0), font=ttfront)
+draw.text((200, 340),"做得非常好！",fill=(0,0,0), font=ttfront)
 img.show()
 img.save("D:/biaoqingbao/m88.jpg")
